@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "64511fb52c01ff53fc9d1381"
+  },
+  "description": "Hello",
+  "barcode": "123456",
+  "weight": 200,
+  "_product": {
+    "$oid": "64511fb52c01ff53fc9d1380"
+  },
+  "createdAt": {
+    "$date": "2023-05-02T14:35:33.823Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:35:33.823Z"
+  }
+},{
+  "_id": {
+    "$oid": "64511fd92c01ff53fc9d1383"
+  },
+  "description": "pensil",
+  "barcode": "654321",
+  "weight": 250,
+  "_product": {
+    "$oid": "64511fd82c01ff53fc9d1382"
+  },
+  "createdAt": {
+    "$date": "2023-05-02T14:36:09.010Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:36:09.010Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120552c01ff53fc9d1385"
+  },
+  "description": "rock",
+  "barcode": "56956556",
+  "weight": 900,
+  "_product": {
+    "$oid": "645120552c01ff53fc9d1384"
+  },
+  "createdAt": {
+    "$date": "2023-05-02T14:38:13.707Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:38:13.707Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120892c01ff53fc9d1387"
+  },
+  "description": "shirt",
+  "barcode": "98989989",
+  "weight": 900,
+  "_product": {
+    "$oid": "645120892c01ff53fc9d1386"
+  },
+  "createdAt": {
+    "$date": "2023-05-02T14:39:05.172Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:39:05.172Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120a62c01ff53fc9d1389"
+  },
+  "description": "cat",
+  "barcode": "98989989",
+  "weight": 900,
+  "_product": {
+    "$oid": "645120a62c01ff53fc9d1388"
+  },
+  "createdAt": {
+    "$date": "2023-05-02T14:39:34.433Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:39:34.433Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120b52c01ff53fc9d138b"
+  },
+  "description": "dog",
+  "barcode": "98989989",
+  "weight": 900,
+  "_product": {
+    "$oid": "645120b52c01ff53fc9d138a"
+  },
+  "createdAt": {
+    "$date": "2023-05-02T14:39:49.266Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:39:49.266Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120c62c01ff53fc9d138d"
+  },
+  "description": "human",
+  "barcode": "98989989",
+  "weight": 900,
+  "_product": {
+    "$oid": "645120c62c01ff53fc9d138c"
+  },
+  "createdAt": {
+    "$date": "2023-05-02T14:40:06.514Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:40:06.514Z"
+  }
+},{
+  "_id": {
+    "$oid": "64525d1628b09531b0b9fcf1"
+  },
+  "description": "human",
+  "barcode": "98989989",
+  "weight": 900,
+  "_product": {
+    "$oid": "64525d1528b09531b0b9fcf0"
+  },
+  "createdAt": {
+    "$date": "2023-05-03T13:09:42.169Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-03T13:09:42.169Z"
+  }
+}]

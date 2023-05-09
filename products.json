@@ -1,0 +1,137 @@
+[{
+  "_id": {
+    "$oid": "64511fb52c01ff53fc9d1380"
+  },
+  "tags": [
+    "book",
+    "book1"
+  ],
+  "name": "Pen",
+  "category": "book",
+  "price": 3000,
+  "createdAt": {
+    "$date": "2023-05-02T14:35:33.233Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:35:33.233Z"
+  }
+},{
+  "_id": {
+    "$oid": "64511fd82c01ff53fc9d1382"
+  },
+  "tags": [
+    "book",
+    "book1"
+  ],
+  "name": "Pensil",
+  "category": "book",
+  "price": 2500,
+  "createdAt": {
+    "$date": "2023-05-02T14:36:08.722Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:36:08.722Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120552c01ff53fc9d1384"
+  },
+  "tags": [
+    "rock",
+    "rock"
+  ],
+  "name": "rock",
+  "category": "stone",
+  "price": 6000,
+  "createdAt": {
+    "$date": "2023-05-02T14:38:13.658Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:38:13.658Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120892c01ff53fc9d1386"
+  },
+  "tags": [
+    "shirt",
+    "shirt"
+  ],
+  "name": "shirt",
+  "category": "cloth",
+  "price": 6000,
+  "createdAt": {
+    "$date": "2023-05-02T14:39:05.130Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:39:05.130Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120a62c01ff53fc9d1388"
+  },
+  "tags": [
+    "cat",
+    "cat"
+  ],
+  "name": "cat",
+  "category": "animal",
+  "price": 6000,
+  "createdAt": {
+    "$date": "2023-05-02T14:39:34.396Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:39:34.396Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120b52c01ff53fc9d138a"
+  },
+  "tags": [
+    "dog",
+    "dog"
+  ],
+  "name": "dog",
+  "category": "dog",
+  "price": 6000,
+  "createdAt": {
+    "$date": "2023-05-02T14:39:49.216Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:39:49.216Z"
+  }
+},{
+  "_id": {
+    "$oid": "645120c62c01ff53fc9d138c"
+  },
+  "tags": [
+    "human",
+    "human"
+  ],
+  "name": "human",
+  "category": "human",
+  "price": 6000,
+  "createdAt": {
+    "$date": "2023-05-02T14:40:06.475Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-02T14:40:06.475Z"
+  }
+},{
+  "_id": {
+    "$oid": "64525d1528b09531b0b9fcf0"
+  },
+  "tags": [
+    "human",
+    "human"
+  ],
+  "name": "human",
+  "category": "human",
+  "price": 6000,
+  "createdAt": {
+    "$date": "2023-05-03T13:09:41.955Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-03T13:09:41.955Z"
+  }
+}]
