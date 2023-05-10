@@ -3,6 +3,8 @@ const app = express()
 const mongoose = require('mongoose')
 const Product = require('./models/product')
 const ProductInfo = require('./models/productinfo')
+const controller = require("./controller/auth.controller");
+const tansactionController = require("./controller/tansaction.controller");
 
 const logger = require('morgan')
 const MONGODB_URI = "mongodb+srv://francemessi:france090@cluster0.d1xg1o6.mongodb.net/resfullAPI?retryWrites=true&w=majority"
@@ -21,7 +23,21 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true }).then(
 mongoose.connection.on('error', err => {
   console.error('MongoDB error', err)
 })
+const cors = require('cors');
+// app.use(cors({
+//   origin: ['http://localhost:3000', 'https://www.google.com/']
+// }));
+// app.use(cors({
+//   origin: '*'
+// }));
 
+app.use(function (req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*'); //หรือใส่แค่เฉพาะ domain ที่ต้องการได้
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  next();
+});
 app.use(logger('short'))
 app.use(express.json())
 app.use(bodyParser.urlencoded({
@@ -118,6 +134,26 @@ app.delete('/productsinfo/:id', async (req, res) => {
     res.status(400).json(error)
   }
 })
+
+app.post(
+  "/api/auth/signup",
+  // [
+  //   verifySignUp.checkDuplicateUsernameOrEmail,
+  //   verifySignUp.checkRolesExisted
+  // ],
+  controller.signup
+);
+
+app.post("/api/auth/signin", controller.signin);
+app.get("/api/auth/signin", controller.signin);
+
+app.post("/api/auth/signout", controller.signout);
+
+app.post("/api/user/:userId/transaction", tansactionController.createTransaction);
+app.get("/api/user/:userId/transaction", tansactionController.getTransactions);
+app.get("/api/user/:userId/transaction/:transactionId", tansactionController.getTransactionDetail);
+
+
 app.listen(PORT, () => {
   console.log(`Application is running on port ${PORT}`)
 })
