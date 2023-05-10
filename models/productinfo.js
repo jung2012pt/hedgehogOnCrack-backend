@@ -3,6 +3,8 @@ const Schema = mongoose.Schema
 
 const productInfoSchema = new Schema({
 
+
+  
   description: String,
   barcode: String,
   weight: Number,
