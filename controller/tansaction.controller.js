@@ -30,6 +30,7 @@ exports.getTransactions = async (req, res) => {
     const transaction = await TransactionModel.find({
         _user: userId,
     }).populate('_user _product')
+    .sort( { createdAt: -1 } )
     return res.status(200).send(transaction);
 };
 
